@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:500,600,700,800')
+}
+
+html {
+       background-image: url('pictures/bg.jpg');
+    background-repeat: repeat;
+}
+body {
+        margin-top: 50px;
+     background-color: rgb(235, 235, 235);
+}
+
+.siteName {
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(235, 235, 235);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 3px;
+    height: 70px;
+    width: 210px;
+    position: absolute;
+    box-shadow: -7px 7px 5px rgb(176, 169, 169);
+    left: 500px;
+    top: -35px;
+    text-align: center;
+     font-weight: 800;
+     text-transform: uppercase;
+      font-size: 150%;
+       white-space: nowrap;   
+}
+.navbar {
+    height: 150px; width:500px; position: relative; 
+}
+
+.item {
+     display:inline-block;
+}
+.one{
+	width: 380px;
+	height: 40px;
+	background-color: #008B66;
+	color: #fff;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.two{
+	width: 360px;
+	height: 160px;
+	background-color: #DCE3DE;
+	border: 1px solid #fff;
+	padding-left: 20px;
+	margin-left: 19px;
+	margin-top: -5px;
+}
