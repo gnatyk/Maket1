@@ -71,6 +71,34 @@ body {
      
 }
 .someText {
-    padding-top: 30px;
+    padding-top: 35px;
+     margin-bottom: 35px;
     text-align: center; 
+   
 }
+.some {
+    /* color: rgb(103, 99, 100);*/
+     font-family: 'Source Sans Pro', sans-serif;
+  color: #676364;
+  font-weight: 400;
+  margin-top: 10px;
+     
+    
+}
+
+.btn {
+  border-radius: 5px; 
+  box-shadow: -2px 3px 4px #635d63;
+  font-family: Arial;
+  color: #fafafa;
+  font-size: 11px;
+  background: #d61e1e;
+  padding: 5px 7px 5px 7px;
+  border: solid #ed0303 2px;
+  text-decoration: none;
+
+ 
+  margin-left: 375px;
+}
+
+    
