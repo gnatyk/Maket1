@@ -19,7 +19,7 @@ body {
     border: 1px solid rgb(235, 235, 235);
     font-family: 'Source Sans Pro', sans-serif;
     color: #262424;
-    box-shadow: -7px 7px 5px  rgba(0, 0, 0, 0.1);;
+    box-shadow: -7px 7px 5px  rgba(0, 0, 0, 0.1);
     position: absolute;
     left: 37%;
     border-radius: 3px;
@@ -64,6 +64,7 @@ body {
 #up {
     font-family: 'Source Sans Pro', sans-serif;
     color: #262424;
+    letter-spacing: 1px; 
     font-size: 24px; 
     font-weight: 600; 
     text-transform: uppercase;
@@ -76,6 +77,7 @@ body {
 }
 .some {
     font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;   
     color: #676364;
     font-weight: 400;
     margin-top: 10px;   
@@ -88,10 +90,11 @@ body {
     color: #fafafa;
     font-size: 11px;
     background: #d61e1e;
-    padding: 5px 7px 5px 7px;
+    padding: 6px 8px 6px 8px;
     border: solid #ed0303 2px;
     text-decoration: none;
     margin-left: 45%;
+
 }
 
 table {    
@@ -133,9 +136,7 @@ table {
     margin-left: 5px;    
 }
 .pictr >img {
-    width: 100%;
-   
-      
+    width: 100%;    
 }
 .tableTwo {
     margin-right: 60px;
@@ -143,42 +144,79 @@ table {
 }
 .row{
     margin-right: 20px;
-   background: #E3E3E3; 
+    background: #E3E3E3; 
     border-radius: 5px 0 5px 5px;
     box-shadow: -5.5px 5.5px 0px 0px  rgba(0, 0, 0, 0.1);
 }
 .header {
     font-family: 'Source Sans Pro', sans-serif;
     color: #262424;
+    letter-spacing: 1px; 
     font-size: 11px; 
     font-weight: 600; 
     text-transform: uppercase;
     line-height: 1.2; 
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    
-    
+    padding-bottom: 20px;   
 }
 .content {
     font-family: 'Source Sans Pro', sans-serif;
     color: #676364;
-    margin: 15px 0 20px 20px;
-  
+    margin: 15px 0 20px 20px;  
     font-size: 10px; 
-    line-height: 1.7;
-    
-    
+    line-height: 1.7;  
 }
 .icon {
     font-family: 'Source Sans Pro', sans-serif;
     color: #262424;
+    letter-spacing: 1px; 
     font-size: 11px; 
     font-weight: 600; 
     text-transform: uppercase;
     line-height: 1.2; 
     margin-left: 20px; 
     padding-bottom: 20px;
+}
+.redText {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: red;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+}
+.boxetText {
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     text-transform: uppercase;
+     font-size: 11px;
+     letter-spacing: 1px;
+     font-weight: 900;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #262424;   
+}
+.box {     
+    box-shadow: -3px 3px 3px 1px #D1CDCD;
+     margin-right: 5px;
+     line-height: 3.5;
+     border: 1px solid #D1CDCD;
+     padding: 7px 7px 7px 7px;
+     border-radius: 5px;
+  
+}
+.end {
+    margin-bottom: 60px;   
+}
+ footer {    
+  color: rgb(206, 206, 206);
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.625;
+  margin-bottom: 20px;
 }
 
 
